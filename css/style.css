@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700i,800,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	color: #333;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #333;
+}
+
+
+#sec-hero{
+	background-image:url(../img/header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 80vh;
+	color:#ffffff;
+	text-align: center;
+	padding: 20% 0;
+	
+}
+
+#sec-hero h1{
+	font-size: 60px;
+	font-weight: 800;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#sec-hero p{
+	font-size: 20px;
+	margin-bottom: 40px;
+	font-weight: 400;
+	text-align: center;
+}
+
+#sec-hero .btn{
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 6px 40px;
+	border-radius: 80px;
+	
+}
+
+#sec-hero .btn:hover{
+	color: #333;
+	
+}
+
+
+.line li{
+	display: inline-block;
+}
+
+#sec-marcas{
+	padding: 3% 0;
+	background-color: #f2f3f5;
+	text-align: center;
+}
+
+.section{
+	padding: 10% 0;
+}
+#sec-features {
+	
+}
+
+
+#sec-features .btno{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 6px 40px;
+	color: #494747;
+	border: 1px solid #494747;
+}
+
+#sec-features .btno:hover{
+	background-color: #298aff;
+	color: #fff;
+	text-decoration: none;
+}
+#sec-features a{
+	margin: 60px 10px;
+}
+
+.titulo{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+.texto {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left;
+	font-size: 25px;
+}
+
+.tex{
+	text-align: left;
+	
+}
+
+h5{
+	text-align: left;
+	color: #298aff;
+}
+
+.espa{
+	padding: 5%;
+}
+
+h2,h3,h4,h5,h6{
+	letter-spacing: 4px;
+}
+
+#sec-about{
+	background-color: #f2f3f5;
+}
+
+#sec-about .section{
+	padding-left: 3%;
+	passing-right: 3%;
+}
+
+#sec-about h2{
+	padding-left: 8%;
+}
+
+#sec-about p{
+	color: grey;
+	font-size: 15px;
+	font-weight: 300;
+	padding-left: 8%;
+}
+
+#sec-about a{
+	color: dodgerblue;
+}
+
+.btn-light{
+	text-align: center;
+}
+
+.button{
+	color: white;
+	background-color: gray;
+	float: center;
+}
+
+.btn{
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 6px 40px;
+	border-radius: 80px;
+	letter-spacing: 2px;
+	border-color: dodgerblue;
+}
+.btn:hover{
+	color: dodgerblue;
+}
+
+
+.bg-about{
+	background-image: url(../img/right.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#sec-about2{
+	border: 1px solid #e4e5e5;
+	background-color: #FAFAFA;
+
+}
+
+#sec-about2 .section{
+	padding-left: 3%;
+	passing-right: 3%;
+}
+
+
+#sec-about2 h2{
+	padding-left: 2%;
+}
+
+#sec-about2 p{
+	color: grey;
+	font-size: 15px;
+	font-weight: 300;
+	padding-bottom: 5%;
+	padding-left: 2%;
+}
+
+#sec-about2 a{
+	color: dodgerblue;
+}
+
+
+.bg-about2{
+	background-image: url(../img/left.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+
+
+
+#sec-works{
+	text-align: center;
+}
+#sec-works h2{
+	letter-spacing: 1px;
+}
+#sec-works p{
+	color: black;
+	font-weight: 400;
+	text-transform: none;
+	padding-bottom: 2%;
+}
+#sec-works a{
+	color: dodgerblue;
+}
+
+
+.work{
+    font-family:"Font Awesome 5 Free";
+	float: right;
+}
+
+
+
+.fa-thumbs-up{
+	color: #298aff;
+}
+.work h2{
+	font-size: 50px;
+	color: dodgerblue;
+	padding-bottom: 10%;
+}
+
+.work h3{
+	font-size: 15px;
+	color: black;
+	font-weight: 600;
+}
+
+.border{
+	font-size: 12px;
+	padding: 10px 40px;
+	letter-spacing: 2px;
+	border-color: blue;
+}
+
+
+
+
+
+
+#sec-team h2{
+	text-transform: capitalize;
+	color: black;
+	font-weight: 300;
+	padding-top: 5%;	
+}
+
+#sec-team{
+	text-align: center;
+	background-color: #f2f3f5;
+}
+
+
+#sec-team h3{
+	font-size: 15px;
+	font-weight: 400;
+	color: darkgray;
+	text-transform: none;
+	letter-spacing: 1px;
+}
+
+#sec-team p{
+	font-family: 'Volkhov', sans-serif;
+	font-style: italic;
+	text-transform: capitalize;
+	font-size: 12px;
+	padding-bottom: 1%;
+
+}
+
+#sec-team .image{
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+
+#sec-contact h1{
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: 300;
+}
+
+
+
+.form-group{
+	padding-left: 20%;
+	padding-top: 2%;
+	color: #298aff;
+}
+
+#sec-contact p{
+	text-align: center;
+}
+
+#sec-contact h4{
+	padding-left: 10px;
+}
+
+
